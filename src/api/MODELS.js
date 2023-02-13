@@ -1,7 +1,7 @@
 const MODELS = [
     { 
         model: "Jeep Compass",
-        url: "assets/Jeep_Compass.jpg", 
+        url: "assets/images/Jeep_Compass.jpg", 
         datasheet: {
             engine: "T270Turbo",
             displacement: "1.332CC., 173HP 5750RPM",
@@ -12,7 +12,7 @@ const MODELS = [
     },
     { 
         model: "Jeep Gladiator",
-        url: "assets/Jeep_Gladiator.jpg", 
+        url: "assets/images/Jeep_Gladiator.jpg", 
         datasheet: {
             engine: "V6 3.6L",
             displacement: "3.604CC., 285HP 6.400RPM",
@@ -23,7 +23,7 @@ const MODELS = [
     },
     { 
         model: "Jeep Grand Cherokee",
-        url: "assets/Jeep_Grand_Cherokee.jpg", 
+        url: "assets/images/Jeep_Grand_Cherokee.jpg", 
         datasheet: { 
             engine: "V6 24V VVT",
             displacement: "3.604CC., 290HP 6400RPM",
@@ -35,7 +35,7 @@ const MODELS = [
     },
     { 
         model: "Jeep Renegade",
-        url: "assets/Jeep_Renegade.jpg", 
+        url: "assets/images/Jeep_Renegade.jpg", 
         datasheet: {
             engine: "1.8L l4E-TORQUE",
             displacement: "1.747CC., 128HP 5250RPM",
@@ -46,7 +46,7 @@ const MODELS = [
     },
     { 
         model: "Jeep Wrangler",
-        url: "assets/Jeep_Wrangler.jpg", 
+        url: "assets/images/Jeep_Wrangler.jpg", 
         datasheet: {
             engine: "3.6L PENTASTAR",
             displacement: "3.605CC., 286HP 6.400RPM",
