@@ -1,8 +1,12 @@
-import {MODELS} from '../../api/MODELS'
-import s from './DataSheet.module.css'
+import { MODELS } from "../../api/MODELS";
+import s from "./DataSheet.module.css";
 
 function DataSheet(props) {
-  let engine="", displacement="", torque="", gearbox="", traction="";
+  let engine = "",
+    displacement = "",
+    torque = "",
+    gearbox = "",
+    traction = "";
   if (props.clickOn) {
     engine = MODELS[props.index].datasheet.engine;
     displacement = MODELS[props.index].datasheet.displacement;
@@ -23,7 +27,7 @@ function DataSheet(props) {
       <h4>tracción:</h4>
       <p>{traction}</p>
     </div>
-  )
+  );
 }
 
-export default DataSheet
+export default DataSheet;
